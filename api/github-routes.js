@@ -13,6 +13,7 @@ module.exports = function(router){
 
     router.post('/event',(req,res) => {
        console.log(req);
+        res.json({message:"hell"})
     });
     return router;
 }
