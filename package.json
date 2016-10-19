@@ -1,0 +1,25 @@
+{
+  "name": "jenkins-pr-builder",
+  "version": "0.0.1",
+  "description": "this plugin lets you build PR in Jenkins and Comment notifications",
+  "main": "app.js",
+  "scripts": {
+    "start" : "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifhanakram/Jenkins-PR-Builder.git"
+  },
+  "author": "Rifhan Akram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rifhanakram/Jenkins-PR-Builder/issues"
+  },
+  "homepage": "https://github.com/rifhanakram/Jenkins-PR-Builder#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "github": "^5.2.2",
+    "node-fetch": "^1.6.3"
+  }
+}
