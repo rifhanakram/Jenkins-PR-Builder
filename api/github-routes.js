@@ -18,7 +18,7 @@ module.exports = function(router){
         //res.json({message:"hell"})
     });
 
-    router.get('/test', req,res => {
+    router.get('/test', (req,res) => {
         res.json({data:data,temp:temp});
     })
     return router;
