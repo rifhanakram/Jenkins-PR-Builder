@@ -2,6 +2,8 @@
  * Created by rifhan on 10/19/16.
  * Description :
  */
+"use strict";
+
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
 let temp;

@@ -1,6 +1,8 @@
 /**
  * Created by rifhan on 10/19/16.
  */
+"use strict";
+
 const express = require('express');
 const app = express();
 const githubRoutes = require('./api/github-routes');
