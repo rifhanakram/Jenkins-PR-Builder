@@ -31,7 +31,7 @@ module.exports = function(router){
 
     router.post('/event',(req,res) => {
         data = req.body;
-        //res.json({message:"hell"})
+        
     });
 
     router.get('/test', (req,res) => {
