@@ -25,7 +25,7 @@ module.exports = function(router){
     router.get('/auth',(req,res)=>{
        github.authenticate({
            type : 'oauth',
-           
+           //test
        })
     });
 
