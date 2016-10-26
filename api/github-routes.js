@@ -16,7 +16,7 @@ let github = new GithubAPI({
     headers : {
         'user-agent' : 'Jenkins-Builder'
     },
-    Promise : require('blue-bird'),
+    Promise : require('bluebird'),
     followRedirects :  false,
     timeout : 5000
 });
